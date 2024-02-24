@@ -1,4 +1,4 @@
-import Character from 'domain'
+import Character from './domain'
 
 export default class Game {
     start() {
@@ -20,3 +20,5 @@ export {
     readGameSaving,
     writeGameSaving
 }
+
+console.log(Character)
